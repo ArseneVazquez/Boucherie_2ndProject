@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-boucherie.webp" alt="Logo Boucherie Le Gourmet" class="logo">
+        <!-- <h1>Nos Produits</h1> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="order.html">Commander</a></li>
+                <li><a href="login.html">Se Connecter</a></li> <!-- Lien vers la connexion -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Découvrez nos produits</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/steak.jpeg" alt="Steak de bœuf">
+                <h3>Steak de Bœuf</h3>
+                <p>35.000 Fbu/kg</p>
+                <button onclick="showDetails('Steak de Bœuf', '35.000 Fbu/kg')">Détails</button>
+            </div>
+            <div class="product-item">
+                <img src="images/chicken.jpeg" alt="Poulet fermier">
+                <h3>Poulet Fermier</h3>
+                <p>25000 Fbu/kg</p>
+                <button onclick="showDetails('Poulet Fermier', '25000 Fbu/kg')">Détails</button>
+            </div>
+            <div class="product-item">
+                <img src="images/lamb.jpeg" alt="Côtes d'agneau">
+                <h3>Côtes d'Agneau</h3>
+                <p>30000 Fbu/kg</p>
+                <button onclick="showDetails('Côtes d\'Agneau', '30000 Fbu/kg')">Détails</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Boucherie Le Gourmet - Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

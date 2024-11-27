@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucherie Le Gourmet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-boucherie.webp" alt="Logo Boucherie Le Gourmet" class="logo">
+        <!-- <h1>Boucherie Le Gourmet</h1> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="order.html">Commander</a></li>
+                <li><a href="login.html">Se Connecter</a></li> <!-- Lien vers la connexion -->
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À Propos de Nous</h2>
+        <p id="description">Bienvenue à la Boucherie Le Gourmet, un lieu où la passion pour la viande rencontre la qualité et l'excellence. Depuis notre création, nous nous engageons à offrir à nos clients les meilleurs morceaux de viande, sélectionnés avec soin et fraîcheur garantie.</p>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>Contactez-Nous</h2>
+            <form id="contactForm">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Boucherie Le Gourmet - Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
